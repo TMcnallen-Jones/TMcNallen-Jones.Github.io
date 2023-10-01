@@ -1,5 +1,10 @@
 body {
-	background-color: gray;
+}
+
+.header {
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(../Images/WebsiteBackground.jpg)
 }
 
 .wrapper {
