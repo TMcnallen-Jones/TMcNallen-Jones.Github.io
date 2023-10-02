@@ -1,13 +1,20 @@
 body {
 }
 
-.header {
+.background {
 	width: 100%;
 	min-height: 100vh;
 	background-image: url("../Images/Background.jpg");
 	background-size: cover;
 	background-position: center;
 	position: relative;
+}
+
+#header {
+	position: relative;
+	width: 75%;
+	z-index: 1;
+	height: 50vh;
 }
 
 #main {
