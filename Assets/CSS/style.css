@@ -11,5 +11,10 @@ body {
 }
 
 .wrapper {
-	
+	position: absolute;
+	top: 0;
+	Right: 0;
+	width: 120px;
+	height: 100vh;
+	background: rgba(255, 255, 255, 0)
 }
