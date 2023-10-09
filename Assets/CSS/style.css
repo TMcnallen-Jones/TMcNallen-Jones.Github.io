@@ -1,6 +1,14 @@
 body {
 }
 
+li {
+	padding: 0 2vh;
+}
+
+a {
+	text-decoration: none;
+}
+
 .background {
 	width: 100%;
 	min-height: 100vh;
@@ -8,6 +16,33 @@ body {
 	background-size: cover;
 	background-position: center;
 	position: relative;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding-left: 0;
+	letter-spacing: 0.5px;
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	letter-spacing: 0.5px;
+	padding-right:0;
+}
+
+#nav {
+	background-color: rgba(255, 255, 255, 0.7);
+	position: relative;
+	margin: auto;
+	width: 75%;
+	height: 10vh;
+	z-index: 2;
+	vertical-align: baseline;
+	display: flex;
 }
 
 #header {
