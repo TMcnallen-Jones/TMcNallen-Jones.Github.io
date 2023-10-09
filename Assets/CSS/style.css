@@ -18,12 +18,17 @@ a {
 	position: relative;
 }
 
+img.transparent {
+	opacity: 0.5;
+}
+
 .links {
 	display: flex;
 	align-items: center;
 	list-style: none;
 	padding-left: 0;
 	letter-spacing: 0.5px;
+	margin-right: inherit;
 }
 
 .icons {
