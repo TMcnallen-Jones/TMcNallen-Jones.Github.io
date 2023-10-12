@@ -9,6 +9,12 @@ a {
 	text-decoration: none;
 }
 
+img {
+	background-color: white;
+	background-blend-mode: multiply;
+	mix-blend-mode: multiply;
+}
+
 .background {
 	width: 100%;
 	min-height: 100vh;
@@ -16,10 +22,6 @@ a {
 	background-size: cover;
 	background-position: center;
 	position: relative;
-}
-
-img.transparent {
-	opacity: 0.5;
 }
 
 .links {
@@ -48,6 +50,7 @@ img.transparent {
 	z-index: 2;
 	vertical-align: baseline;
 	display: flex;
+	padding: 0;
 }
 
 #header {
