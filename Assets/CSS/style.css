@@ -4,13 +4,12 @@ body {
 li {
 	padding: 0 2vh;
 }
-
+  
 a {
 	text-decoration: none;
 }
 
 img {
-	background-color: white;
 	background-blend-mode: multiply;
 	mix-blend-mode: multiply;
 }
@@ -19,6 +18,15 @@ img {
 	width: 100%;
 	height: fit-content;
 	background-image: url("../Images/Background.jpg");
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.pacmanBackground {
+	width: 100%;
+	height: fit-content;
+	background-image: url("../Images/PacManPreview");
 	background-size: cover;
 	background-position: center;
 	position: relative;
