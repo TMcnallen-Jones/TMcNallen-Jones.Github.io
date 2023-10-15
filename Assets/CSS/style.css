@@ -21,15 +21,16 @@ img {
 	background-size: cover;
 	background-position: center;
 	position: relative;
+	text-align: center;
 }
 
 .pacmanBackground {
 	width: 100%;
-	height: fit-content;
-	background-image: url("../Images/PacManPreview");
+	background-image: url("../Images/PacManPreview.png");
 	background-size: cover;
 	background-position: center;
 	position: relative;
+	text-align: center;
 }
 
 .links {
@@ -53,6 +54,16 @@ img {
 	display: inline-block;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.projectShowcase {
+	margin: 0 auto;
+	list-style: none;
+	position: relative;
+	z-index: 2;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid: 300px 250px;
 }
 
 #nav {
