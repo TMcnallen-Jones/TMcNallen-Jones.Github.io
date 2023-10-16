@@ -29,7 +29,16 @@ img {
 	background-image: url("../Images/PacManPreview.png");
 	background-size: cover;
 	background-position: center;
-	position: relative;
+	position: absolute;
+	text-align: center;
+}
+
+.tlotpkBackground {
+	width: 100%;
+	background-image: url("../Images/TlotpkPreview.png");
+	background-size: cover;
+	background-position: center;
+	position: absolute;
 	text-align: center;
 }
 
@@ -63,7 +72,6 @@ img {
 	z-index: 2;
 	display: grid;
 	grid-template-columns: auto auto;
-	grid: 300px 250px;
 }
 
 #nav {
