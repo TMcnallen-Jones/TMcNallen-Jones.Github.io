@@ -1,5 +1,11 @@
+html {
+	font: inherit;
+}
+
 body {
 	margin: 0;
+	font-family: 'Source Sans Pro', Arial, sans-serif;
+
 }
 
 li {
@@ -89,7 +95,7 @@ img {
 
 #header {
 	width: 75%;
-	height: 15%;
+	min-height: 50vh;
 	position: relative;
 	z-index: 1;
 }
@@ -104,7 +110,7 @@ img {
 
 #footer {
 	width: 75%;
-	height: 50%;
+	height: 8rem;
 	position: relative;
 	z-index: 1;
 }
