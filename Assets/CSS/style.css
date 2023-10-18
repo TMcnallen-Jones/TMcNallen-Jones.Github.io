@@ -126,6 +126,7 @@ img {
 		/*The list elements in the links*/
 		#nav ul.links li {
 			display: block;
+			padding: 0;
 		}
 		/*The page being used*/
 		#nav ul.links li.active {
@@ -143,7 +144,12 @@ img {
 
 		/*The link element*/
 		#nav ul.links a {
+			padding: 0 2rem;
 			margin: 0 auto 0 0;
+			display: flex;
+			line-height: 4rem;
+			list-style: none;
+			letter-spacing: 0.5px;
 		}
 
 	/*The social media icons*/
@@ -155,6 +161,10 @@ img {
 		list-style: none;
 		letter-spacing: 0.5px;
 	}
+		/*Changes the icon when hovered over*/
+		#nav ul.icons li:hover {
+			opacity: 0.4;
+		}
 
 /*All the content between the navigation bar and the footer*/
 #main {
