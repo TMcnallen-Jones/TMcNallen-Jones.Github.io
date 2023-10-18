@@ -211,26 +211,25 @@ img {
 	}
 
 
-h1:before,
-h1:after {
-	background-color: #000;
-	content: "";
-	display: inline-block;
-	height: 1px;
-	position: relative;
-	vertical-align: middle;
-	width: 50%;
-}
+	#main h1:before, #main h1:after {
+		background-color: #000;
+		content: "";
+		display: inline-block;
+		height: 1px;
+		position: relative;
+		vertical-align: middle;
+		width: 50%;
+	}
 
-h1:before {
-	right: 0.5em;
-	margin-left: -50%;
-}
+	#main h1.title:before {
+		right: 0.1em;
+		margin-left: -50%;
+	}
 
-h1:after {
-	left: 0.5em;
-	margin-right: -50%;
-}
+	#main h1.title:after {
+		left: 0.1em;
+		margin-right: -50%;
+	}
 
 
 
