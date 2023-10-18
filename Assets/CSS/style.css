@@ -211,7 +211,7 @@ img {
 	}
 
 
-	#main h1:before, #main h1:after {
+	#main h1.title:before, #main h1.title:after {
 		background-color: #000;
 		content: "";
 		display: inline-block;
