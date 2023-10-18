@@ -79,7 +79,6 @@ img {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	text-align: center;
 }
 
 #tlotpkBackground {
@@ -89,7 +88,6 @@ img {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	text-align: center;
 }
 
 /*The header*/
@@ -166,6 +164,10 @@ img {
 			opacity: 0.4;
 		}
 
+#video {
+	text-align: center;
+}
+
 /*All the content between the navigation bar and the footer*/
 #main {
 	width: calc(100% - 4rem);
@@ -177,8 +179,16 @@ img {
 	background-color: #ffffff;
 	z-index: 2;
 }
+	#main a.backButton {
+		padding: 0;
+		margin: 2rem 0 0 2rem;
+		cursor: pointer;
+		font-size: 20px;
+		display: inline-block;
+	}
+
 	/*The title for each page*/
-	#main.title {
+	#main h1.title {
 		padding: 4rem 0 2rem 0;
 		font-size: 26pt;
 		font-weight: bold;
@@ -189,6 +199,7 @@ img {
 	#main h1.tags {
 		font-size: 14px;
 		font-weight: bold;
+		text-align: center;
 	}
 
 	/*The images that lead to the projects*/
@@ -205,6 +216,7 @@ img {
 		display: grid;
 		grid-template-columns: auto auto;
 		list-style: none;
+		justify-content:center;
 		z-index: 2;
 	}
 
@@ -218,6 +230,7 @@ img {
 		cursor: pointer;
 		font-size: 20px;
 		display: inline-block;
+		text-align: center;
 	}
 
 		/*The state for highlighted buttons*/
