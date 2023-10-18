@@ -4,6 +4,7 @@ html {
 	font: inherit;
 }
 
+/*Dates for the portfolio*/
 header .date {
 	display: block;
 	font-size: 0.8rem;
@@ -84,6 +85,7 @@ img {
 	text-align: left;
 }
 
+/*The background image for pacman*/
 #pacmanBackground {
 	width: 100%;
 	position: absolute;
@@ -93,6 +95,7 @@ img {
 	background-attachment: fixed;
 }
 
+/*The background image for group project*/
 #tlotpkBackground {
 	width: 100%;
 	position: absolute;
@@ -188,10 +191,12 @@ img {
 	z-index: 2;
 }
 
+	/*centers element*/
 	#main .center {
 		text-align: center;
 	}
 
+	/*Button too go back to portfolio*/
 	#main a.backButton {
 		padding: 0;
 		margin: 2rem 0 0 2rem;
@@ -210,7 +215,7 @@ img {
 		text-align: center;
 	}
 
-
+	/*lines surrounding title*/
 	#main h1.title:before, #main h1.title:after {
 		background-color: #000;
 		content: "";
@@ -221,11 +226,13 @@ img {
 		width: 50%;
 	}
 
+	/*Left line*/
 	#main h1.title:before {
 		right: 0.1em;
 		margin-left: -50%;
 	}
 
+	/*Right Line*/
 	#main h1.title:after {
 		left: 0.1em;
 		margin-right: -50%;
@@ -323,7 +330,7 @@ img {
 	align-items: stretch;
 	z-index: 2;
 }
-
+	/*The list of elements in the projects*/
 	#projects li {
 		padding: 2rem 2rem;
 		border-style: solid;
