@@ -202,11 +202,37 @@ img {
 
 	/*The title for each page*/
 	#main h1.title {
+		margin: 0;
 		padding: 4rem 0 2rem 0;
+		position: relative;
 		font-size: 26pt;
 		font-weight: bold;
 		text-align: center;
 	}
+
+
+h1:before,
+h1:after {
+	background-color: #000;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+h1:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+
+h1:after {
+	left: 0.5em;
+	margin-right: -50%;
+}
+
+
 
 	/*The tags for what was used in the project*/
 	#main h1.tags {
