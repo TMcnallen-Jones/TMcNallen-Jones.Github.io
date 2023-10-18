@@ -4,6 +4,13 @@ html {
 	font: inherit;
 }
 
+header .date {
+	display: block;
+	font-size: 0.8rem;
+	margin: 0 0 1rem 0;
+	position: relative;
+}
+
 body {
 	margin: 0;
 	font-family: 'Source Sans Pro', Arial, sans-serif;
@@ -48,6 +55,11 @@ p {
 
 li {
 	padding: 0 2rem;
+}
+
+article p {
+	padding: 0;
+	margin: 0;
 }
 
 a {
@@ -126,19 +138,19 @@ img {
 			display: block;
 			padding: 0;
 		}
-		/*The page being used*/
-		#nav ul.links li.active {
-			background-color: #ffffff;
-		}
-			/*Stops the used page from changing when hovered over*/
-			#nav ul.links li.active:hover {
+			/*The page being used*/
+			#nav ul.links li.active {
 				background-color: #ffffff;
 			}
+				/*Stops the used page from changing when hovered over*/
+				#nav ul.links li.active:hover {
+					background-color: #ffffff;
+				}
 
-		/*Changes the link background when hovered over*/
-		#nav ul.links li:hover {
-			background-color: rgba(255, 255, 255, 0.4)
-		}
+			/*Changes the link background when hovered over*/
+			#nav ul.links li:hover {
+				background-color: rgba(255, 255, 255, 0.4)
+			}
 
 		/*The link element*/
 		#nav ul.links a {
@@ -175,6 +187,7 @@ img {
 	background-color: #ffffff;
 	z-index: 2;
 }
+
 	#main .center {
 		text-align: center;
 	}
@@ -194,7 +207,7 @@ img {
 		font-weight: bold;
 		text-align: center;
 	}
-	
+
 	/*The tags for what was used in the project*/
 	#main h1.tags {
 		font-size: 14px;
@@ -203,7 +216,7 @@ img {
 	}
 
 	/*The images that lead to the projects*/
-	#main.projectWindows {
+	#main a.projectWindows {
 		padding-left: 10px;
 		padding-right: 10px;
 		display: inline-block;
@@ -216,7 +229,7 @@ img {
 		display: grid;
 		grid-template-columns: auto auto;
 		list-style: none;
-		justify-content:center;
+		justify-content: center;
 		z-index: 2;
 	}
 
@@ -272,12 +285,24 @@ img {
 
 /*All the projects I made*/
 #projects {
-	width: 75%;
+	width: 100%;
 	margin: 0 auto;
 	padding: 0;
 	position: inherit;
 	background-color: #ffffff;
-	display: flex;
+	display: grid;
+	grid-template-columns: auto auto;
+	border-top: solid 2px #eeeeee;
 	list-style: none;
+	justify-content: center;
+	align-items: stretch;
 	z-index: 2;
 }
+
+	#projects li {
+		padding: 2rem 2rem;
+		border-style: solid;
+		border-color: #eeeeee;
+		border-top: 0;
+		text-align: center;
+	}
