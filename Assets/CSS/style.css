@@ -164,10 +164,6 @@ img {
 			opacity: 0.4;
 		}
 
-#video {
-	text-align: center;
-}
-
 /*All the content between the navigation bar and the footer*/
 #main {
 	width: calc(100% - 4rem);
@@ -179,6 +175,10 @@ img {
 	background-color: #ffffff;
 	z-index: 2;
 }
+	#main .center {
+		text-align: center;
+	}
+
 	#main a.backButton {
 		padding: 0;
 		margin: 2rem 0 0 2rem;
