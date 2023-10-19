@@ -78,7 +78,7 @@ img {
 	width: 100%;
 	height: 100%;
 	position: relative;
-	background-image: url("../Images/Background.jpg");
+	background-image: url("../Images/Backgrounds/Background.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -89,7 +89,7 @@ img {
 #pacmanBackground {
 	width: 100%;
 	position: absolute;
-	background-image: url("../Images/PacManPreview.png");
+	background-image: url("../Images/Backgrounds/PacManPreview.png");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -99,7 +99,7 @@ img {
 #tlotpkBackground {
 	width: 100%;
 	position: absolute;
-	background-image: url("../Images/TlotpkPreview.png");
+	background-image: url("../Images/Backgrounds/TlotpkPreview.png");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -216,36 +216,37 @@ img {
 	}
 
 	/*lines surrounding title*/
-	#main h1.title:before, #main h1.title:after {
+	/*#main h1.title:before, #main h1.title:after {
 		background-color: #000;
 		content: "";
 		display: inline-block;
 		height: 1px;
 		position: relative;
 		vertical-align: middle;
+		text-align: justify;
 		width: 50%;
-	}
+	}*/
 
 	/*Left line*/
-	#main h1.title:before {
+	/*#main h1.title:before {
 		right: 0.1em;
 		margin-left: -50%;
-	}
+	}*/
 
 	/*Right Line*/
-	#main h1.title:after {
+	/*#main h1.title:after {
 		left: 0.1em;
 		margin-right: -50%;
-	}
+	}*/
 
 
 
-	/*The tags for what was used in the project*/
-	#main h1.tags {
-		font-size: 14px;
-		font-weight: bold;
-		text-align: center;
-	}
+/*The tags for what was used in the project*/
+#main h1.tags {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
 
 	/*The images that lead to the projects*/
 	#main a.projectWindows {
