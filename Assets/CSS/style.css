@@ -125,6 +125,16 @@ img {
 	background-attachment: fixed;
 }
 
+/*The background image for website*/
+#DonkeyKongBackground {
+	width: 100%;
+	position: absolute;
+	background-image: url("../Images/Backgrounds/DonkeyKongPreview.png");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
 /*The header*/
 #header {
 	width: 75%;
